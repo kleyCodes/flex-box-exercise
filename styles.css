@@ -1,0 +1,94 @@
+*{
+    border-radius: 10px;
+}
+
+.green-contaier {
+    border: 3px solid green;
+    background-color: rgb(151, 243, 144);
+    height: 250px;
+    width: 400px;
+    padding: 20px;
+}
+
+.blue-container{
+    border: 3px solid blue;
+    height: 50px;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    background-color: hsl(35, 41%, 92%);
+}
+
+.blue-container .blue{
+    border: 3px solid brown;
+    flex: 1;
+    
+}
+
+.blue-container .divide{
+    display: flex;
+    padding: 3px;
+    justify-content: center;
+}
+
+
+.blue-container .divide div{
+    border: 3px red solid;
+    flex: 1;
+}
+
+/*Mid container*/
+
+.mid{
+    width: 400px;
+    height: 100px;
+    margin: 10px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.mid-one{
+    border: 3px solid brown;
+    width: 200px;
+    background-color: hsl(35, 41%, 92%);
+}
+
+.mid-two{
+    width: 200px;   
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.mid-two div{
+    border: 3px solid brown;
+    flex: 1;
+    background-color: hsl(35, 41%, 92%);
+}
+
+/*Last Container*/
+.final-container{
+    border: 3px solid blue;
+    height: 50px;
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    background-color: hsl(35, 41%, 92%);
+}
+
+.final-container .final{
+    border: 3px solid brown;
+    flex: 1;
+}
+
+.half{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 3px;
+}
+
+.half div{
+    border: 3px solid brown;
+    flex:1;
+}
